@@ -16,7 +16,7 @@ const mailTransport = nodemailer.createTransport({
     },
 });
 
-const APP_NAME = 'Cloud Storage for Firebase quickstart';
+const APP_NAME = 'Moffy Navigation APP';
 
 exports.sendWelcomeEmail = functions.auth.user().onCreate((user) => {
     const email = user.email;
